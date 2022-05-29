@@ -1,9 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
-import React from 'react';
+import React, {useContext} from 'react';
 import "./contact.css"
 import Phone from "../../img/phone.jpg"
 import Email from "../../img/email.jpg"
 import Address from "../../img/address.jpg"
+import { ThemeContext } from '../../context';
 
 const Contact = () => {
     // const formRef = useRef
@@ -11,7 +12,8 @@ const Contact = () => {
     // const handleSubmit = (e) => {
     //     e.preventDefault();  
     // }
-
+const theme = useContext(ThemeContext);
+const darkMode = theme.state.darkMode;
     return (
         <div className='c'>
             <div className="c-bg"></div>
@@ -37,10 +39,10 @@ const Contact = () => {
                         <b>A la recherche d'un super alternant ?</b> Rencontrons nous ! Contactez-moi via le formulaire... :)
                     </p>
                     <form >
-                        <input type="text" placeholder='Nom' name="user_name" />
-                        <input type="text" placeholder='Objet' name="user_subject" />
-                        <input type="text" placeholder='Email' name="user_email" />
-                        <textarea name="message" rows="5" placeholder='Message'></textarea>
+                        <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder='Nom' name="user_name" />
+                        <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder='Objet' name="user_subject" />
+                        <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder='Email' name="user_email" />
+                        <textarea style={{backgroundColor: darkMode && "#333"}} name="message" rows="5" placeholder='Message'></textarea>
                         <button>Envoyer</button>
                     </form>
                 </div>
