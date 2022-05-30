@@ -1,5 +1,5 @@
 .c {
-  height: 100vh;
+  height: 80vh;
   position: relative;
 }
 
@@ -38,6 +38,7 @@
   margin: 50px 0px;
   font-weight: 300;
   width: 70%;
+  font-size: 20px;
 }
 
 .c-icon {
@@ -48,6 +49,7 @@
 
 .c-desc {
   font-weight: 200;
+  font-size: 20px;
 }
 
 form {
@@ -71,13 +73,19 @@ textarea {
   padding-left: 10px;
 }
 
-button {
+.c-sub {
   border: none;
   padding: 15px;
   background-color: #008f8f;
   color: white;
-  font-weight: 500;
+  font-weight: 800;
   cursor: pointer;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.c-sub:hover {
+  background-color: #202b32;
 }
 
 @media screen and (max-width: 480px) {
@@ -112,7 +120,11 @@ button {
     margin-left: 0;
   }
 
-  button {
+  .c-sub {
     margin-top: 10px;
+  }
+
+  .c-info-item {
+    font-size: 17px;
   }
 }

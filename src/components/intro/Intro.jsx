@@ -2,6 +2,7 @@
 import React from 'react'
 import './intro.css'
 import PP from '../../img/pp-fb.png'
+import CV from '../../img/CV-Felix-Berger.pdf'
 
 function Intro() {
   return (
@@ -18,7 +19,8 @@ function Intro() {
                     <div className="i-title-item">Node.js</div>
                 </div>
             </div>
-            <p className='i-description'>Spécialiste du marketing digital en reconversion dans le développement web... Actuellement en formation à la Wild Code School, j'apprends le métier de Développeur Web JS.Je suis à la recherche d'une alternance à partir de Septembre 2022.</p>
+            <p className='i-description'>Après 4 années fructueuses dans le marketing & la communication, j'ai débuté une reconversion dans l'IT... Actuellement en formation à la Wild Code School, j'apprends le métier de Développeur Web JS. <b>Je suis à la recherche d'une alternance à partir de Septembre 2022.</b></p>
+            <a className='i-CV' target="_new" href={CV}>Téléchargez mon CV</a>
         </div>
     </div>
     <div className='i-right'>

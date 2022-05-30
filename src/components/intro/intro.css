@@ -15,6 +15,23 @@
   position: relative;
 }
 
+.i-CV {
+  background-color: #202b32;
+  margin: auto;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.i-CV:hover {
+  background-color: #008f8f;
+  drop-shadow: 4px solid black;
+}
+
 .i-left-wrapper {
   padding: 50px;
   height: 40%;
@@ -42,6 +59,10 @@
 .i-title-wrapper {
   height: 100%;
   animation: move 10s ease-in-out infinite alternate;
+}
+
+.i-description {
+  font-size: 18px;
 }
 
 @keyframes move {
@@ -86,6 +107,21 @@
   .i {
     flex-direction: column;
   }
+
+  .i-description {
+    font-size: 15px;
+  }
+
+  .i-name {
+    font-size: 40px;
+  }
+
+  .i-title-item {
+    font-size: 25px;
+  }
+  .i-title-wrapper {
+    margin: auto;
+  }
   .i-left-wrapper {
     padding: 10px;
     align-content: center;
@@ -96,5 +132,15 @@
 
   .i-desc {
     display: none;
+  }
+
+  .i-img {
+    width: 95%;
+    height: 95%;
+  }
+
+  .i-bg {
+    width: 95%;
+    height: 95%;
   }
 } ;
