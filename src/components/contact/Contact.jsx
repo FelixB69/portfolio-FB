@@ -58,23 +58,23 @@ const Contact = () => {
                             <img src={Phone} alt="" className="c-icon" />+33 (0)6 43 65 26 49
                         </div>
                         <div className="c-info-item">
-                            <img src={Email} alt="" className="c-icon" />fb.felixberger@gmail.com
+                            <img src={Email} alt="" className="c-icon" /><a className="c-link" target="_new" href="mailto:fb.felixberger@gmail.com">fb.felixberger@gmail.com</a>
                         </div>
                         <div className="c-info-item">
-                            <img src={Address} alt="" className="c-icon" />Cours d'Herbouville, 69004 Lyon, France
+                            <img src={Address} alt="" className="c-icon" /><a className="c-link" target="_new" href="https://www.google.fr/maps/place/Cr+d'Herbouville,+Lyon/@45.7764797,4.837724,17z/data=!4m5!3m4!1s0x47f4eae5b58c58eb:0x5875c3336008ace9!8m2!3d45.7766294!4d4.8400736">Cours d'Herbouville, 69004 Lyon, France</a>
                         </div>
             </div>
           </div>
           <div className="c-right">
           <p className="c-desc">
-                        <b>A la recherche d'un super alternant ?</b> Rencontrons nous ! Contactez-moi via le formulaire...
+                        <b>A la recherche d'un super alternant ?</b> Rencontrons nous !Contactez-moi via le formulaire...
                     </p>
             <form ref={formRef} onSubmit={handleSubmit}>
               <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Nom" name="name"/>
               <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Objet" name="subject"/>
               <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Email" name="email"/>
               <textarea style={{backgroundColor: darkMode && "#333"}} rows="5" placeholder="Message" name="message"/>
-              <button className="c-sub">Submit</button>
+              <button className="c-sub">Envoyer</button>
             </form>
             <ToastContainer />
           </div>

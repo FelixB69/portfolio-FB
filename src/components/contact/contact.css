@@ -49,7 +49,7 @@
 
 .c-desc {
   font-weight: 200;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 form {
@@ -76,7 +76,7 @@ textarea {
 .c-sub {
   border: none;
   padding: 15px;
-  background-color: #008f8f;
+  background-color: #202b32;
   color: white;
   font-weight: 800;
   cursor: pointer;
@@ -85,9 +85,17 @@ textarea {
 }
 
 .c-sub:hover {
-  background-color: #202b32;
+  background-color: #008f8f;
 }
 
+.c-link {
+  text-decoration: none;
+  color: black;
+}
+.c-link:hover {
+  text-decoration: underline;
+  color: blue;
+}
 @media screen and (max-width: 480px) {
   .c-wrapper {
     flex-direction: column;
