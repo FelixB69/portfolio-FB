@@ -10,7 +10,7 @@ function ProjectList() {
         <div className="pl-texts">
             <h1 className="pl-title">Conceptualiser, maquetter, développer : découvrez mes projets.</h1> 
                 <p className="pl-desc">
-                    Retrouvez ici mon portfolio de projet réalisé dans un cadre d'apprentissage et professionnels. Accédez au projet final ainsi qu'au repo GitHub.
+                    Retrouvez ici mon portfolio de projet réalisé dans un cadre d'apprentissage et professionnels. Accédez aux résultats finaux de chaque projet ! 
                 </p>
         </div>
 <div className="pl-list">

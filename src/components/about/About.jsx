@@ -23,7 +23,7 @@ function About() {
           <img src={Award} alt="" className="a-award-img" />
           <div className="a-award-texts">
             <div className="a-award-title">Eloquence du Bégaiement Lyon</div>
-            <div className="a-award-desc">Prix de la Plume, EM Lyon busines school, </div>
+            <div className="a-award-desc">Prix de la Plume, EM Lyon business school, </div>
           </div>
         </div>
         </div>

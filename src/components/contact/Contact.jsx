@@ -67,7 +67,7 @@ const Contact = () => {
           </div>
           <div className="c-right">
           <p className="c-desc">
-                        <b>A la recherche d'un super alternant ?</b> Rencontrons nous !Contactez-moi via le formulaire...
+                        <b>A la recherche d'un super alternant ?</b> Rencontrons nous ! Contactez-moi via le formulaire...
                     </p>
             <form ref={formRef} onSubmit={handleSubmit}>
               <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Nom" name="name"/>

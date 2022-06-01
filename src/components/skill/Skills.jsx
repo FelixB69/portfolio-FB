@@ -18,7 +18,7 @@ const Skills = () => {
             
             <h1 className="s-title">Des compétences : et surtout la soif d'apprendre</h1> 
                 <p className="s-desc">
-                    <b>"Apprendre à apprendre"</b>, une philosophie que la Wild Code School m'a inculqué
+                    <b>"Apprendre à apprendre"</b>, une philosophie que la Wild Code School m'a inculqué...
                 </p>
         </div>
         <div className="s-skills">
