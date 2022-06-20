@@ -7,6 +7,7 @@ import Toggle from "./components/toggle/Toggle";
 import React, { useContext } from "react";
 import { ThemeContext } from "./context";
 import Skills from "./components/skill/Skills";
+import Footer from "./components/footer/Footer";
 
 function App() {
   const theme = useContext(ThemeContext);
@@ -24,6 +25,7 @@ function App() {
       <Skills />
       <ProjectList />
       <Contact />
+      <Footer />
     </div>
   );
 }
