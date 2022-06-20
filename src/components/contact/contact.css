@@ -99,6 +99,9 @@ textarea {
   color: blue;
 }
 @media screen and (max-width: 480px) {
+  .c {
+    height: 80vh;
+  }
   .c-wrapper {
     flex-direction: column;
     padding: 0px 50px;
