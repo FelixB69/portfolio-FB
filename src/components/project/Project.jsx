@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
-import React from 'react';
-import "./project.css"
+import React from "react";
+import "./project.css";
 
-function Project({img, link}) {
+function Project({ img, link }) {
   return (
     <div className="p">
       <div className="p-browser">
@@ -14,7 +14,7 @@ function Project({img, link}) {
         <img src={img} alt="" className="p-img" />
       </a>
     </div>
-  )
+  );
 }
 
-export default Project
+export default Project;

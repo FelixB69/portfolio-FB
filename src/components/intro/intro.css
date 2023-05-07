@@ -118,6 +118,7 @@
   }
 
   .i-title-item {
+    display: block;
     font-size: 25px;
   }
   .i-title-wrapper {
