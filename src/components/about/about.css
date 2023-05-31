@@ -78,7 +78,7 @@
 
 @media screen and (max-width: 480px) {
   .a {
-    margin-top: 400px;
+    margin-top: 680px;
     flex-direction: column-reverse;
     text-align: center;
   }
