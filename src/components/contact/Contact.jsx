@@ -20,10 +20,10 @@ const Contact = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_okh08ja",
-        "template_h9mncvd",
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE,
         formRef.current,
-        "4s7XJ2FvMFcAt3vxe"
+        process.env.REACT_APP_PUBLIC_KEY
       )
       .then(
         (result) => {
