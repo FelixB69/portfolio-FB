@@ -21,13 +21,15 @@ function Intro() {
           </div>
           <p className="i-description">
             Après 4 années fructueuses dans le marketing & la communication,
-            j'ai débuté une reconversion dans l'IT... Actuellement en alternance
-            chez EntendsMoi, une startup de la e-santé, j'apprends le métier de
-            Développeur Web JS.{" "}
-            <b>
-              Je suis à la recherche d'une nouvelle mission en CDI à partir de
-              Septembre 2023.
-            </b>
+            j'ai débuté en 2022 une reconversion dans le développement web et
+            j’ai obtenu le titre de Concepteur Développeur d'Applications (Bac
+            +3/4) en septembre 2023.
+            <br />
+            <br />
+            Actuellement Développeur Web Full-stack chez Likewatt, une startup
+            spécialisée dans l'optimisation des ENR, j’ai pour objectif
+            d'approfondir mes connaissances et monter en compétences sur des
+            projets à impact.
           </p>
           <a className="i-CV" target="_new" href={CV}>
             Téléchargez mon CV
